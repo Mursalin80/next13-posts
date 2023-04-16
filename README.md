@@ -12,6 +12,26 @@ yarn dev
 pnpm dev
 ```
 
+- add .env file at root directory
+
+```bash
+# localhost url
+# DATABASE_URL=postgres://postgres:password@localhost:5432/posts
+
+# AWS-RDS URL
+DATABASE_URL=postgresql://userName:password@awsEndPointURL:port/dataBaseName
+```
+
+- add .env.local file at root directory
+
+```bash
+GOOGLE_CLIENT_ID=
+GOOGLE_CLIENT_SECRET=
+
+GITHUB_ID=
+GITHUB_SECRET=
+```
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.jsx`. The page auto-updates as you edit the file.
